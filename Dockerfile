@@ -6,7 +6,7 @@ WORKDIR /opt/nginx
 
 ENV NGINX_VERSION=1.21.0
 
-COPY ngx_http_proxy_connect_module /opt/ngx_http_proxy_connect_module
+COPY lib/ngx_http_proxy_connect_module /opt/ngx_http_proxy_connect_module
 
 RUN apt-get update  && \
     apt-get -y upgrade && \
