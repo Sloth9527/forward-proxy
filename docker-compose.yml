@@ -3,7 +3,7 @@ version: '3.9'
 services:
   forward-proxy:
     container_name: forward-proxy
-    build: ./nginx
+    build: .
     ports: 
       - 8080:80
     # volumes:
