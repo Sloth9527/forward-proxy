@@ -17,6 +17,8 @@ RUN apt-get update  && \
     patch \
     build-essential \
     libtool \
+    libpcre3 libpcre3-dev \
+    openssl libssl-dev \
     make
 
 
